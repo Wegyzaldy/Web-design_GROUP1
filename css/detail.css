@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/* for cover the top navigation */
+.wrap{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* style the top navigation */
+#top-nav{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color:#ffffcc;
+    border-bottom: 2px solid orange;
+}
+
+/* logo */
+#logo{
+    margin: 10px;
+    float: left;
+}
+/* Logo size */
+#logo >a>img{
+    height: 60px;
+}
+
+
+/* Style Menu bar */
+#menu{
+    position: relative;
+    top: 35px;
+    left: 30px;
+}
+/* Style the unordered list menu */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+/* Style the list of the menu */
+li {
+  float: left;
+}
+/* Style the list of the menu link */
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+/* Style the list of the menu link on hover */
+li a:hover:not(.active) {
+  border-bottom: 4px orange solid;
+}
+
+.active {
+  border-bottom: 4px orange solid;
+}
+
+/* style the sign In Button */
+#sign{
+  float: right;
+  position: relative;
+  bottom: 55px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* style the sign in link*/
+#sign a{
+  border: 2px solid orange;
+  padding: 7px;
+  border-radius: 5px;
+}
+/* change color on hover*/
+#sign a:hover{
+  color: white;
+  background-color: orange;
+}
+
+/* Style the content */
+#content{
+  background-color: #ffcc66;
+}
+/* Style the image size */
+#img1 img{
+    height: 100px;
+}
+/* Style the content background */
+#img2{
+    background-color: #ffffcc;
+}
+/* Style the content background */
+#wrap{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #fffcfc;
+}
+/* Style the Footer */
+#footer{
+  height: 80px;
+  width: 100%;
+  background-color: #ffffcc;
+  border-top: 2px solid orange;
+}
+/* Style the footer paragraph */
+#footer p{
+  text-align: center;
+}
