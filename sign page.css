@@ -1,16 +1,16 @@
-*{
+/**{
     padding: 0;
     margin: 0;
 }
 a{
     text-decoration: none;
 }
-/* for cover the top navigation */
+/ for cover the top navigation /
 .wrap{
     margin-left: 50px;
     margin-right: 50px;
 }
-/* style the top navigation */
+/ style the top navigation /
 #top-nav{
     position: relative;
     height: 80px;
@@ -19,13 +19,13 @@ a{
     border-bottom: 2px solid orange;
 }
 
-/* logo */
+/ logo /
 #logo{
     margin: 10px;
     float: left;
 }
 
-/* style the sign In Button */
+/ style the sign In Button /
 #sign{
   float: right;
   position: relative;
@@ -33,34 +33,34 @@ a{
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* style the sign in link*/
+/ style the sign in link /
 #sign a{
   border: 2px solid orange;
   padding: 7px;
   border-radius: 5px;
 }
-/* change color on hover*/
+/ change color on hover /
 #sign a:hover{
   color: white;
   background-color: orange;
 }
 
-/* Style Menu bar */
+/ Style Menu bar /
 #menu{
     position: relative;
     top: 35px;
     left: 30px;
 }
-/* Style the unordered list menu */
+/ Style the unordered list menu /
 ul {
     list-style-type: none;
     overflow: hidden;
 }
-/* Style the list of the menu */
+/ Style the list of the menu /
 li {
   float: left;
 }
-/* Style the list of the menu link */
+/ Style the list of the menu link /
 li a {
   display: block;
   text-align: center;
@@ -69,7 +69,7 @@ li a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
 }
-/* Style the list of the menu link on hover */
+/ Style the list of the menu link on hover /
 li a:hover:not(.active) {
   border-bottom: 4px orange solid;
 }
@@ -77,22 +77,22 @@ li a:hover:not(.active) {
 .active {
   border-bottom: 4px orange solid;
 }
-/* Style the Footer */
+/ Style the Footer /
 #footer{
   height: 80px;
   width: 100%;
   background-color: #ffffcc;
   border-top: 2px solid orange;
 }
-/* Style the content */
+/ Style the content /
 #content{
   height: 500px;
   background-color: #ffcc66;
 }
-/* Style the footer paragraph */
+/ Style the footer paragraph /
 #footer p{
   text-align: center;
-}
+} */  /* I MAKE IT LIKE THIS BECAUSE THE STYLE IS ALREADY IN BASIC.CSS */
 
 #account input{
   text-align:left;
@@ -114,7 +114,8 @@ li a:hover:not(.active) {
 
 /*all*/
 body {
-    background-image: url("images/login/loginBac.jpg");;
+    /*background-image: url("images/login/loginBac.jpg");;*/
+    background-color: #bc85a3; /* NEW CSS */
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -212,4 +213,34 @@ form p > * {
  /*layout of the login button and prompt*/
 #login_control {
     padding: 0; 28px;
+}
+
+
+/* new css */
+
+#ima1 {
+    float: left;
+    margin-left: 1%;
+    width: 20%;
+    height: 120px;
+    
+}
+
+#ima2 {
+    float: left;
+    margin-left: 1%;
+    width: 20%;
+    height: 120px;
+    
+}
+#ima3 {
+    float: left;
+    margin-left: 1%;
+    width: 20%;
+    height: 120px;
+    
+}
+
+#footer {
+    border-bottom: 3px solid #FF847C;
 }
