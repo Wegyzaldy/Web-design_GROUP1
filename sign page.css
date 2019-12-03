@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/* for cover the top navigation */
+.wrap{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* style the top navigation */
+#top-nav{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color:#ffffcc;
+    border-bottom: 2px solid orange;
+}
+
+/* logo */
+#logo{
+    margin: 10px;
+    float: left;
+}
+
+/* style the sign In Button */
+#sign{
+  float: right;
+  position: relative;
+  bottom: 55px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* style the sign in link*/
+#sign a{
+  border: 2px solid orange;
+  padding: 7px;
+  border-radius: 5px;
+}
+/* change color on hover*/
+#sign a:hover{
+  color: white;
+  background-color: orange;
+}
+
+/* Style Menu bar */
+#menu{
+    position: relative;
+    top: 35px;
+    left: 30px;
+}
+/* Style the unordered list menu */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+/* Style the list of the menu */
+li {
+  float: left;
+}
+/* Style the list of the menu link */
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+/* Style the list of the menu link on hover */
+li a:hover:not(.active) {
+  border-bottom: 4px orange solid;
+}
+
+.active {
+  border-bottom: 4px orange solid;
+}
+/* Style the Footer */
+#footer{
+  height: 80px;
+  width: 100%;
+  background-color: #ffffcc;
+  border-top: 2px solid orange;
+}
+/* Style the content */
+#content{
+  height: 500px;
+  background-color: #ffcc66;
+}
+/* Style the footer paragraph */
+#footer p{
+  text-align: center;
+}
+
+#account input{
+  text-align:left;
+  width:200px;
+  height:30px;
+}
+
+#register{
+  padding-top:5px;
+  width:180px;
+  height:50px;
+}
+
+
+
+
+
+
+
+/*all*/
+body {
+    background-image: url("images/login/loginBac.jpg");;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+ 
+/* The login position and outline*/
+#login_frame {
+    width: 400px;
+    height: 260px;
+    padding: 13px;
+ 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: 0px;
+ 
+    background-color: rgba(240, 255, 20, 0.5);
+ 
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/*bacground*/ 
+form p > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+/*The label size and color*/
+.label_input {
+    font-size: 16px;
+    font-family: 宋体;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+ 
+    color: white;
+    background-color: #cc3300;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+ 
+/* color and words of the input */
+.text_field {
+    width: 278px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+    margin-top: 35px;
+}
+ 
+/*position of button*/ 
+#btn_login {
+    font-size: 29px;
+    font-family: 宋体;
+ 
+    width: 140px;
+    height: 40px;
+    line-height: 28px;
+    text-align: center;
+ 
+    color: white;
+    background-color: #e63900;
+    border-radius: 6px;
+    border: 0;
+    margin-top: 30px;
+    margin-left:105px;
+ 
+    float: left;
+}
+ 
+/* prompt if you forget the password*/
+#forget_pwd {
+    font-size: 13px;
+    color: darkred;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    top: 5px;
+    margin-top: 15px;
+    
+ 
+}
+ 
+/*change color if your put the mouse oun the prompt */
+#forget_pwd:hover {
+    color: blue;
+    text-decoration: underline;
+}
+ /*layout of the login button and prompt*/
+#login_control {
+    padding: 0; 28px;
+}
