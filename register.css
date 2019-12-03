@@ -6,7 +6,8 @@ a{
     text-decoration: none;
 }
 body{
-    background-color: #ffcc66;
+    /*background-color: #ffcc66;*/
+    background-color: #bc85a3; /* NEW STYLE */
 }
 /* for cover the top navigation */
 .wrap{
@@ -18,8 +19,10 @@ body{
     position: relative;
     height: 80px;
     width: 100%;
-    background-color:#ffffcc;
-    border-bottom: 2px solid orange;
+    /*background-color:#ffffcc;*/
+    background-color: #f9e1e0; /* NEW STYLE */
+    /*border-bottom: 2px solid orange;*/
+    border-bottom: 3px solid #FF847C; /* NEW STYLE */
 }
 
 /* logo */
@@ -58,11 +61,13 @@ li a {
 }
 /* Style the list of the menu link on hover */
 li a:hover:not(.active) {
-  border-bottom: 4px orange solid;
+  /*border-bottom: 4px orange solid;*/
+    border-bottom: 4px solid #FF847C; /* NEW STYLE */
 }
 
 .active {
-  border-bottom: 4px orange solid;
+  /*border-bottom: 4px orange solid;*/
+    border-bottom: 4px solid #FF847C; /* NEW STYLE */
 }
 /* style the sign In Button */
 #sign{
@@ -74,7 +79,8 @@ li a:hover:not(.active) {
 }
 /* style the sign in link*/
 #sign a{
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
+    border: 3px solid #FF847C; /* NEW STYLE */
   padding: 7px;
   border-radius: 5px;
 }
@@ -86,7 +92,9 @@ li a:hover:not(.active) {
 /* Style the content */
 #content{
   height: 500px;
-  background-color: #ffcc66;
+  /*background-color: #ffcc66;*/
+    background-color: #bc85a3; /* NEW STYLE */
+    width: 100%; /* NEW CSS */
 }
 /* Style the h1 element */
 h1{
@@ -149,8 +157,11 @@ input[type="password"]{
 #footer{
   height: 80px;
   width: 100%;
-  background-color: #ffffcc;
-  border-top: 2px solid orange;
+  /*background-color: #ffffcc;*/
+    background-color: #f9e1e0; /* NEW STYLE */
+  /*border-top: 2px solid orange; */
+    border-top: 3px solid #FF847C; /* NEW STYLE */
+    border-bottom: 3px solid #FF847C; /* NEW CSS */
 }
 /* Style the footer paragraph */
 #footer p{
