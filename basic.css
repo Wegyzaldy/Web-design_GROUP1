@@ -15,8 +15,10 @@ a{
     position: relative;
     height: 80px;
     width: 100%;
-    background-color:#ffffcc;
-    border-bottom: 2px solid orange;
+    /* background-color:#ffffcc; */
+    background-color: #f9e1e0;/* new style */
+    /*border-bottom: 2px solid orange;*/
+    border-bottom: 3px solid #FF847C; /* new css */
 }
 
 /* logo */
@@ -35,7 +37,8 @@ a{
 }
 /* style the sign in link*/
 #sign a{
-  border: 2px solid orange;
+ /* border: 2px solid orange;*/
+    border: 3px solid #FF847C; /* new css */
   padding: 7px;
   border-radius: 5px;
 }
@@ -71,23 +74,27 @@ li a {
 }
 /* Style the list of the menu link on hover */
 li a:hover:not(.active) {
-  border-bottom: 4px orange solid;
+  /*border-bottom: 4px orange solid;*/
+    border-bottom: 3px solid #FF847C; /* new css */
 }
 
 .active {
-  border-bottom: 4px orange solid;
+ /* border-bottom: 4px orange solid;*/
+    border-bottom: 3px solid #FF847C; /* new css */
 }
 /* Style the Footer */
 #footer{
   height: 80px;
   width: 100%;
-  background-color: #ffffcc;
-  border-top: 2px solid orange;
+  background-color: #f9e1e0; /* new css */
+ /* border-top: 2px solid orange;*/
+    border-top: 3px solid #FF847C; /* new css */
 }
 /* Style the content */
 #content{
   height: 500px;
-  background-color: #ffcc66;
+ /* background-color: #ffcc66; */
+    background-color: #bc85a3; /* new css */
 }
 /* Style the footer paragraph */
 #footer p{
