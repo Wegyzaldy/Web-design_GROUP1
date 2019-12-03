@@ -1,4 +1,4 @@
-/**{
+/* *{
     padding: 0;
     margin: 0;
 }
@@ -84,15 +84,19 @@ li a:hover:not(.active) {
   background-color: #ffffcc;
   border-top: 2px solid orange;
 }
-/ Style the content /
+*/
+/* Style the content */
 #content{
   height: 500px;
-  background-color: #ffcc66;
+ /* background-color: #ffcc66; */
+  padding-top : 100px; /* NEW ADDED */
 }
+/*
 / Style the footer paragraph /
 #footer p{
   text-align: center;
-} */  /* I MAKE IT LIKE THIS BECAUSE THE STYLE IS ALREADY IN BASIC.CSS */
+} 
+*/  /* I MAKE IT LIKE THIS BECAUSE THE STYLE IS ALREADY IN BASIC.CSS */
 
 #account input{
   text-align:left;
@@ -132,7 +136,7 @@ body {
     margin-left: -200px;
     margin-top: 0px;
  
-    background-color: rgba(240, 255, 20, 0.5);
+    background-color: rgba(225, 237, 245, 0.5);
  
     border-radius: 10px;
     text-align: center;
@@ -183,7 +187,7 @@ form p > * {
     text-align: center;
  
     color: white;
-    background-color: #e63900;
+    background-color: #cc3300;
     border-radius: 6px;
     border: 0;
     margin-top: 30px;
