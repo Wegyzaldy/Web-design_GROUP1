@@ -15,8 +15,9 @@ a{
     position: relative;
     height: 80px;
     width: 100%;
-    background-color:#ffffcc;
-    border-bottom: 2px solid orange;
+/*    background-color:#ffffcc; */
+      background-color:#f9e1e0
+/*    border-bottom: 2px solid orange; */
 }
 
 /* logo */
@@ -24,11 +25,9 @@ a{
     margin: 10px;
     float: left;
 }
-/* Logo size */
-#logo >a>img{
-    height: 60px;
+#logo > a > img{
+  height: 60px;
 }
-
 
 /* Style Menu bar */
 #menu{
@@ -62,7 +61,6 @@ li a:hover:not(.active) {
 .active {
   border-bottom: 4px orange solid;
 }
-
 /* style the sign In Button */
 #sign{
   float: right;
@@ -85,7 +83,9 @@ li a:hover:not(.active) {
 
 /* Style the content */
 #content{
-  background-color: #ffcc66;
+  padding: 20px;
+/*  background-color: #ffcc66; */
+    background-color: #bc85a3;
 }
 /* Style the image size */
 #img1 img{
@@ -95,20 +95,24 @@ li a:hover:not(.active) {
 }
 /* Style the content background */
 #img2{
-    background-color: #ffffcc;
+ /*   background-color: #ffffcc;  */
+      background-color: #f9e1e0;
 }
 /* Style the content background */
 #wrap{
     margin-left: 50px;
     margin-right: 50px;
-    background-color: #fffcfc;
+ /*   background-color: #fffcfc; */
+      background-color: #f9e1e0;
 }
 /* Style the Footer */
 #footer{
   height: 80px;
   width: 100%;
-  background-color: #ffffcc;
-  border-top: 2px solid orange;
+/*  background-color: #ffffcc;  */
+    background-color: #f9e1e0;
+/* border-top: 2px solid orange; */
+    border-top: 2px solid #bc85a3;
 }
 /* Style the footer paragraph */
 #footer p{
