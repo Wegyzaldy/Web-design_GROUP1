@@ -134,6 +134,46 @@ border-bottom: 4px solid #FF847C; /* new css */
     display: none;
 }
 
+@media (min-width: 401px) and (max-width: 760px){
+    #menu {
+        position: relative;
+        display: inline-block;
+    }
+    
+    #menu ul.active {
+        float: left;
+        margin-left: ;
+        font-size: 125%;
+    }
+    
+    
+    .toggle-nav:hover{
+        color: white;
+        /* background-color: orange; */ 
+        background-color: #bc85a3; /* new css */
+    }   
+    
+    #top-nav{
+        height: 300px;
+    }
+    
+    #sign a{
+        display: none;
+    }
+    
+    #sign2 a{
+        display: block;
+        border: 2px solid #FF847C; /* new css */
+        padding: 7px;
+        border-radius: 5px;
+        bottom: 55px;
+        margin-top: 15px;
+        float: right;
+    }
+    
+}
+
+
 @media (max-width: 400px) {
     #logo{
         margin: 0.5em;
