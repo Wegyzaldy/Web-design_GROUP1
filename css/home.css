@@ -130,3 +130,9 @@ border-bottom: 4px solid #FF847C; /* new css */
   text-align: center;
 }
 
+#sign2 a{
+    display: none;
+}
+
+
+
