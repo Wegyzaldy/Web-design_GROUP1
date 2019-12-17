@@ -151,7 +151,7 @@ li a:hover:not(.active) {
     #logo > a > img{
     height: 80px;
     width: 160px;
-    margin-right: 10px
+    margin-right: 10px;
     }
     
     #top-nav{
@@ -159,7 +159,7 @@ li a:hover:not(.active) {
     height: 300px;
     width: 100%;
 /*    background-color:#ffffcc; */
-      background-color:#f9e1e0/* new css */
+      background-color:#f9e1e0; /* new css */
 /*    border-bottom: 2px solid orange; */
     }
     li a {
@@ -178,19 +178,19 @@ li a:hover:not(.active) {
     position: relative;
     top: 0px;
     left: 0px;
-    bottom: 100px
+    bottom: 100px;
 }
     #sign{
-    opacity: 0%
+    opacity: 0%;
     }
     #sign a:hover{
-        opacity: 0%  
+        opacity: 0%;  
     }
     #sign2{
-    opacity: 100%
+    opacity: 100%;
     }
     #sign a:hover{
-        opacity: 100%
+        opacity: 100%;
     }
     #wrap{
     margin-left: 10px;
