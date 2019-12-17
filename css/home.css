@@ -134,5 +134,48 @@ border-bottom: 4px solid #FF847C; /* new css */
     display: none;
 }
 
+@media (max-width: 400px) {
+    #logo{
+        margin: 0.5em;
+        position: static;
+        float: left;
+        margin-left: 3em;
+    }
+    
+    #logo > a > img{
+        height: 55px;
+        width: 130px;
+    }
+    
+    #top-nav{
+        height: 315px;
+        
+    }
+    
+    #menu ul.active{
+        float: left;
+        margin-bottom: 40px;
+        font-size: 130%;
+    }
+    
+    #sign a{
+        display: none;
+    }
+    
+    #sign2 a{
+        display: block;
+        border: 2px solid #FF847C; /* new css */
+        padding: 7px;
+        border-radius: 5px;
+        bottom: 100px;
+        margin-top: 15px;
+        float: left;
+    }
+    
+    li a{
+        padding: 0.65em;
+    }
+}
+
 
 
